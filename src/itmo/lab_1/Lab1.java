@@ -26,8 +26,8 @@ Java. */
 
 /* 3.В переменной number, лежит целое число 10500. В переменной result посчитайте следующее
 выражение: (number / 10) / 10. Результат выведите на консоль. */
-        int number = 10500;
-        double result = (double)(number / 10) / 10.0;
+        int number = 3;
+        double result = ((double)number / 10) / 10;
         System.out.println(result);
 
         /* 4.Даны три числа: 3.6, 4.1, 5.9. В переменной result посчитайте произведение этих чисел. */
