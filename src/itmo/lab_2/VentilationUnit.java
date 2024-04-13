@@ -4,7 +4,18 @@ public class VentilationUnit {
     private String nameUnit;
     private int widthUnit;
     private int lengthUnite;
+    private double power;
+    private int airFlow;
     private String serviceSide;
+
+    public VentilationUnit() {
+
+    }
+
+    public VentilationUnit(int power, int airFlow) {
+        this.power = power;
+        this.airFlow = airFlow;
+    }
 
     public String getNameUnit() {
         return nameUnit;
@@ -38,12 +49,19 @@ public class VentilationUnit {
         this.serviceSide = serviceSide;
     }
 
-    public static void main(String[] args) {
-        VentilationUnit ventilationUnit = new VentilationUnit();
+    public double getPower() {
+        return power;
+    }
 
-        ventilationUnit.setNameUnit("P1");
-        String unitName = ventilationUnit.getNameUnit();
+    public void setPower(double power) {
+        this.power = power;
+    }
 
-        System.out.println(unitName);
+    public int getAirFlow() {
+        return airFlow;
+    }
+
+    public void setAirFlow(int airFlow) {
+        this.airFlow = airFlow;
     }
 }

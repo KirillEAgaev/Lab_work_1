@@ -18,11 +18,11 @@ public class Calculator {
     }
 
     public long divide(long a, long b) {
-        return a / b;
+        return (long)((double)a / (double)b);
     }
 
     public int divide(int a, int b) {
-        return a / b;
+        return (int)((double)a / (double)b);
     }
 
     public double multiply(double a, double b) {
@@ -47,23 +47,5 @@ public class Calculator {
 
     public int subtract(int a, int b) {
         return a - b;
-    }
-
-    public static void main(String[] args) {
-        Calculator calculator = new Calculator();
-
-        double result1 = calculator.sum(2.5, 3.5);
-        long result2 = calculator.sum(3L, 5L);
-        int result3 = calculator.sum(3, 5);
-        double result4 = calculator.divide(2.5, 3.5);
-        long result5 = calculator.divide(10L, 2L);
-        int result6 = calculator.divide(3, 5);
-
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
-        System.out.println(result4);
-        System.out.println(result5);
-        System.out.println(result6);
     }
 }
