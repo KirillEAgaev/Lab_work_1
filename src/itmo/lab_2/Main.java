@@ -8,8 +8,8 @@ public class Main {
         long result2 = calculator.sum(3L, 5L);
         int result3 = calculator.sum(3, 5);
         double result4 = calculator.divide(2.5, 3.5);
-        long result5 = calculator.divide(10L, 2L);
-        int result6 = calculator.divide(15, 5);
+        double result5 = calculator.divide(10L, 2L);
+        double result6 = calculator.divide(15, 5);
         double result7 = calculator.multiply(2.5, 3.5);
         long result8 = calculator.multiply(10L, 2L);
         int result9 = calculator.multiply(3, 5);
