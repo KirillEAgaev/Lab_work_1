@@ -24,5 +24,5 @@ public class Main {
         System.out.println(tree1);
         Tree tree2 = new Tree(30, "Дуб");
         Tree tree3 = new Tree(5, true, "Клён");
-    }
+    }//test
 }
