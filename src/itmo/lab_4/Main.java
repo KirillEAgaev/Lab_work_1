@@ -86,7 +86,7 @@ public class Main {
         System.out.println("Первое уникальное число в массиве: " + uniqueNumber);
 //Часть 2. Упражнение 5
         int[] ints = {44, 231, 23, 34, 54, 55, 435, 76, 87, 2, 3};
-        int[] result8 = mergeSort(ints);
+        int[] result8 = Exercise.mergeSort(ints);
         System.out.println(Arrays.toString(result8));
     }
 }
