@@ -2,6 +2,8 @@ package itmo.lab_4;
 import java.util.Arrays;
 import java.util.Scanner;
 
+import static itmo.lab_4.Exercise.mergeSort;
+
 public class Main {
     public static void main(String[] args){
         Exercise exercise = new Exercise();
@@ -82,5 +84,9 @@ public class Main {
         int[] array1 = {1, 2, 3, 1, 2, 4};
         int uniqueNumber = exercise.findFirstUniqueNumber(array1);
         System.out.println("Первое уникальное число в массиве: " + uniqueNumber);
+//Часть 2. Упражнение 5
+        int[] ints = {44, 231, 23, 34, 54, 55, 435, 76, 87, 2, 3};
+        int[] result8 = mergeSort(ints);
+        System.out.println(Arrays.toString(result8));
     }
 }
