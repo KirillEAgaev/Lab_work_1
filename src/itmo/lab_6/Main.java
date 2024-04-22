@@ -32,7 +32,6 @@ public class Main {
 //Упражнение 5
         MainClassTwo main = new MainClassTwo();
         main.displayInfo();
-
         ChildClassTwo child1 = new ChildClassTwo();
         child1.displayInfo();
     }
