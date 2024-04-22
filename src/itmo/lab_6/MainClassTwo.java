@@ -8,9 +8,9 @@ public class MainClassTwo {
         this.scanner = new Scanner(System.in);
     }
 
-    public int getUserAge() {
+    public void displayInfo() {
         System.out.println("Введите свой возраст: ");
-        int age = scanner.nextInt();
-        return age;
+        int number = scanner.nextInt();
+        System.out.println("Возраст: " + number);
     }
 }

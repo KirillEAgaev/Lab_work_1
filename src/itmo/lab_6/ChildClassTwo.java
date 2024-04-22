@@ -1,9 +1,10 @@
 package itmo.lab_6;
-import java.util.Scanner;
 
 public class ChildClassTwo extends MainClassTwo {
-    public String getUserName() {
+    @Override
+    public void displayInfo() {
         System.out.println("Введите своё имя: ");
-        return scanner.next();
+        String name = scanner.next();
+        System.out.println("Имя: " + name);
     }
 }

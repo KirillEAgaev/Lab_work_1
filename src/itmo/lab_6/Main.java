@@ -31,11 +31,9 @@ public class Main {
 
 //Упражнение 5
         MainClassTwo main = new MainClassTwo();
-        int age = main.getUserAge();
-        System.out.println("Возраст пользователя: " + age);
+        main.displayInfo();
 
         ChildClassTwo child1 = new ChildClassTwo();
-        String name = child1.getUserName();
-        System.out.println("Имя пользователя: " + name);
+        child1.displayInfo();
     }
 }
